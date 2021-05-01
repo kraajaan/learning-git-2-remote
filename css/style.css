@@ -1,0 +1,46 @@
+/* Global */
+
+
+body {
+	font-size: 0.9rem;
+	text-align: center;
+	background: #fff;
+	color: #3d3d3d;
+	line-height: 1.5;
+	font-family: 'Cabin';
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+
+
+/* song-lyrics */
+
+.song-lyrics h1 {
+	display: inline-block;
+	position: relative;
+	font-family: "Roboto Condensed";
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+.song-lyrics h1::after {
+	position: absolute;
+	content: '';
+	bottom: -15px;
+	left: 50%;
+	width: 100px;
+	height: 10px;
+	transform: translateX(-50%);
+	background: #5093C7;
+	border-radius: 4px;
+}
+
+.song-lyrics mark {
+	background-color: #c0ffc8;
+}
+
